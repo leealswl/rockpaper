@@ -54,9 +54,9 @@ function App() {
     // console.log("유저",user,"컴",computer)
     if(user.name===computer.name){
       return "TIE"
-    } else if (user.name ==="Rock") return computer.name=="Scissors"?"WIN":"LOSE"
-    else if (user.name ==="Scissors") return computer.name=="Paper"?"WIN":"LOSE"
-    else if (user.name ==="Paper") return computer.name=="Rock"?"WIN":"LOSE"
+    } else if (user.name ==="Rock") return computer.name==="Scissors"?"WIN":"LOSE"
+    else if (user.name ==="Scissors") return computer.name==="Paper"?"WIN":"LOSE"
+    else if (user.name ==="Paper") return computer.name==="Rock"?"WIN":"LOSE"
   }
 
   
