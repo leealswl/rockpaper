@@ -77,7 +77,7 @@ function App() {
     <div>
 
       <div className="main-name">
-        <h1>가위 바위 보 게임</h1>
+        <h1>가위 바위 보 게임🎮</h1>
       </div>
       <div className='main'>
         <Box title='you'item={userSelect} result={result} />
